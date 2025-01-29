@@ -60,24 +60,24 @@ To set up the project locally, follow these steps:
 
     Note: If requirements.txt is not provided, you may need to manually install the necessary packages such as pandas, numpy, scikit-learn, etc.
 
-Usage
+## Usage
 
-    Prepare the data:
+Prepare the data:
 
-    Ensure that the dataset (loan_approval_dataset.csv) is present in the project directory. If not, you may need to obtain and preprocess the data accordingly.
+Ensure that the dataset (loan_approval_dataset.csv) is present in the project directory. If not, you may need to obtain and preprocess the data accordingly.
 
-    Train the model:
+Train the model:
 
-    Run the training script to train the stacking classifier:
+ Run the training script to train the stacking classifier:
 
-    python loans.py
+       python loans.py
 
-    This script will train the model and may output performance metrics or save the trained model for future use.
+This script will train the model and may output performance metrics or save the trained model for future use.
 
-    Make predictions:
+Make predictions:
 
-    After training, you can use the model to make predictions on new applicant data by modifying the script or creating a new script to load the trained model and input data.
+After training, you can use the model to make predictions on new applicant data by modifying the script or creating a new script to load the trained model and input data.
 
-Contributing
+## Contributing
 
 Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request. Ensure that your contributions align with the project's coding standards and include appropriate tests.
